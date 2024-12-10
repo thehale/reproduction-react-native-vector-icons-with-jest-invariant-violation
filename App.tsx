@@ -22,12 +22,15 @@ import {
   useColorScheme,
 } from 'react-native';
 
+import EntypoIcon from '@react-native-vector-icons/entypo';
 import type {PropsWithChildren} from 'react';
 import React from 'react';
 
 type SectionProps = PropsWithChildren<{
   title: string;
 }>;
+
+export const Icon = () => <EntypoIcon name="flag" size={30} color="#900" />;
 
 function Section({children, title}: SectionProps): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
