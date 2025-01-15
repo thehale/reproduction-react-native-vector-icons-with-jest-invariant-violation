@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders icons correctly 1`] = `
+<icon
+  color="#900"
+  name="flag"
+  size={30}
+/>
+`;
